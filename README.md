@@ -20,16 +20,16 @@ some of the useful text preprocessing techniques will be applied into the text d
 feeding the text into the machine learning algorithm. Most of the preprocessing steps used will
 be involved with the Regular Expression or Regex libraries from python.
 
-**1. Remove all the url inside the text**
+**1. Remove all the url inside the text**\
 To remove url inside a text, the re.sub() method will be used to remove all the
 occurrence of substrings that start with “http\S+”” regular expression by replacing it
 with an empty string.\
-**2. Remove all the non word character**
+**2. Remove all the non word character**\
 Some of the text contains non-word characters such as , ^, %, etc that does not hold any
 information towards the classification. Therefore, using the re.sub() method again, all
 the non-word characters will be replaced by a single space using “\W” regular
 expression.\
-**3. Remove all the single characters**
+**3. Remove all the single characters**\
 Beside non-word characters, some text may also contain irrelevant single characters
 such as “I”, “U”,etc from informal text. These single characters will be replaced by a
 space using “\s+[a-zA-Z]\s+” regular expression with re.sub() method.\
@@ -37,7 +37,7 @@ space using “\s+[a-zA-Z]\s+” regular expression with re.sub() method.\
 After replacing the single characters with space, the resulting sentence will be
 containing multiple unwanted spaces. Therefore, those spaces will also be remove by
 substituting the multiple spaces with single space using the “\s+”.\
-**5. Convert all words into lowercase**
+**5. Convert all words into lowercase**\
 Next, all the words in texts will be converted into lowercase so that words that have
 different cases will be treated equally by the machine learning algorithm. This will be
 done by using the standard python.
