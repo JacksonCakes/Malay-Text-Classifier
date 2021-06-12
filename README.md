@@ -53,4 +53,10 @@ done by using the standard python.
 SVM shows the highest accuracy (**89.9%**) among the three models (SVM, Logistic Regression, Naive Bayes) in terms of accuracy.
 A confusion matrix were plot to futher analyze the result obtained.
 
-![](images/confusion.png)
+<img src="images/confusion.png" width="800" height="640">
+
+# Suggestion for improvement
+- Stemming / Lemmatization
+- Increase the size of dataset to deal with imbalance number of dataset for all the classes
+- Advance text representation techniques can be used
+- Other model such as deep Learning model such as LSTM, CNN, BERT etc
