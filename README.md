@@ -18,7 +18,7 @@ irregular spacing, and so on. These noise elements in text will interfere with t
 learning algorithm which might reduce the performance and accuracy of the model. Therefore,
 some of the useful text preprocessing techniques will be applied into the text dataset before
 feeding the text into the machine learning algorithm. Most of the preprocessing steps used will
-be involved with the Regular Expression or Regex libraries from python.\
+be involved with the Regular Expression or Regex libraries from python.
 
 **1. Remove all the url inside the text**
 To remove url inside a text, the re.sub() method will be used to remove all the
@@ -40,4 +40,4 @@ substituting the multiple spaces with single space using the “\s+”.\
 **5. Convert all words into lowercase**
 Next, all the words in texts will be converted into lowercase so that words that have
 different cases will be treated equally by the machine learning algorithm. This will be
-done by using the standard python.\
+done by using the standard python.
