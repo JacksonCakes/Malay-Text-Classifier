@@ -55,7 +55,7 @@ A confusion matrix were plot to futher analyze the result obtained.
 
 <img src="images/confusion.png" width="800" height="640">
 
-# Suggestion for improvement
+# Suggestion for improvement / Future experiment
 - Stemming / Lemmatization
 - Increase the size of dataset to deal with imbalance number of dataset for all the classes
 - Advance text representation techniques can be used
