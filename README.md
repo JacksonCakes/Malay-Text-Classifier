@@ -33,7 +33,7 @@ expression.\
 Beside non-word characters, some text may also contain irrelevant single characters
 such as “I”, “U”,etc from informal text. These single characters will be replaced by a
 space using “\s+[a-zA-Z]\s+” regular expression with re.sub() method.\
-**4. Replace multiple spaces with single space**
+**4. Replace multiple spaces with single space**\
 After replacing the single characters with space, the resulting sentence will be
 containing multiple unwanted spaces. Therefore, those spaces will also be remove by
 substituting the multiple spaces with single space using the “\s+”.\
@@ -41,3 +41,11 @@ substituting the multiple spaces with single space using the “\s+”.\
 Next, all the words in texts will be converted into lowercase so that words that have
 different cases will be treated equally by the machine learning algorithm. This will be
 done by using the standard python.
+
+# Text representation
+- TF-IDF (Selected)
+- One hot encoding
+- Bag of word
+- word2vec
+- GloVe
+
