@@ -49,3 +49,7 @@ done by using the standard python.
 - word2vec
 - GloVe
 
+# Result
+SVM shows the highest accuracy (**89.9%**) among the three models (SVM, Logistic Regression, Naive Bayes) in terms of accuracy.
+A confusion matrix were plot to futher analyze the result obtained.
+
